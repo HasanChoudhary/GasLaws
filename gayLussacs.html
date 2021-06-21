@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gay Lussac's Law</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link rel="icon" href="icons/gicon.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="headerLinks">
+                <a href="index.html" class="linkToPages">Home</a>
+                <a href="Charles.html" class="linkToPages">Charle's Law</a>
+                <a href="Boyle.html" class="linkToPages">Boyle's Law</a>
+            </div>
+            <h1 class = "headerTxt">Gay Lussac's Law</h1>
+        </div>
+        <div class = "defPlusInput">
+            <h3 id="definition">As Pressure increases/decreases Temperature directly increases/decreases as well, and vice versa, (Volume stays constant)</h2>
+            <div class="ptvInputs">
+                Pressure: <input type="range" id="volume" min="0" max="10">
+                Temperature: <input type="range" id="preasure" min="0" max="10">
+            </div>
+        </div>
+
+        <canvas id="myChart"></canvas>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+        <script src="gayLussacs.js" charset="UTF-8"></script>
+    </body>
+</html>
