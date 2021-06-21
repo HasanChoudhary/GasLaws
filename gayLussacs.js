@@ -1,4 +1,4 @@
-var ptv = ["Preasure", "Tempreture", "Volume"];
+var ptv = ["Pressure ", "Temperature", "Volume"];
 var valuesOfBars = [$("#preasure").val(), $("#volume").val(),5];
 var barColors = ["#c5bddc","#c5bddc","#c5bddc"];
 
